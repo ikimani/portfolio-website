@@ -1,14 +1,24 @@
-# My Portfolio Website
+# Hadassa Wangari Kimani – Portfolio & Projects
 
-Welcome to my portfolio! 🌟
+Welcome to my portfolio repository, built for the Power Learn Project Hackathon.
 
-This website includes:
-- A personal Movie Tracker 📺 – showing movies I’ve watched and loved
-- A Digital Crime Scene Report 🕵️‍♀️ – inspired by my background in forensic science
-- A clean, modern design with neon-accented aesthetics
+## 👩🏾‍💻 About Me
+I'm an aspiring Full-Stack Developer and Digital Forensic Science student based in Nairobi, Kenya.
 
-Made with pure HTML and CSS 💻  
-Built for the Power Learn Project Hackathon 🚀
+## 📁 What's in this repository?
+- **Portfolio Website** – Personal site with bio, skills, and project showcase
+- **Movie Tracker** – A fun, themed HTML/CSS project listing movies I’ve watched recently
+- **Digital Crime Scene Report** – A mock digital forensics dashboard built using only HTML and CSS
 
-## Live Demo
-Click the GitHub Pages link below to see it live!
+## 🛠️ Tools Used
+- HTML5
+- CSS3
+- GitHub Pages
+
+## 🚀 Live Demo
+[Click here to view the live site](https://your-username.github.io/your-repo-name)
+
+*(Replace the link above with your actual GitHub Pages live link once it’s active)*
+
+## 📫 Contact
+**Email:** wangarikimanih@gmail.com
