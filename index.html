@@ -1,212 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Crime Scene Report</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<!--NAVBAR-->
-<nav>
-    <div class="left">
-        <a href="/">Hadassa Kimani</a>
-    </div>
+  <header>
+    <h1>Digital Crime Scene Report</h1>
+    <p>Compiled by: Hadassa</p>
+  </header>
 
-        <div class="right">
-           <a href="http://github.com" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-github"></i>
-            <span>Github</span>
-           </a>
+  <section class="case-overview">
+    <h2>1. Case Overview</h2>
+    <p><strong>Case ID:</strong> DCS-001-AUG25</p>
+    <p><strong>Date Opened:</strong> August 1, 2025</p>
+    <p><strong>Suspected Crime:</strong> Unauthorized access and data breach</p>
+    <p><strong>Assigned Investigator:</strong> Hadassah</p>
+    <p>This report documents a suspected digital intrusion targeting a personal development dashboard. Suspicious access patterns were discovered on multiple devices within a 24-hour window, prompting a deeper forensic investigation into the data flow and potential compromise.</p>
+  </section>
 
-           <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" >
-            <i class="fa-brands fa-linkedin"></i>
-            <span>linkedin</span>
-           </a>
+  <section class="device-log">
+    <h2>2. Device Access Log</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Device ID</th>
+          <th>Access Time</th>
+          <th>IP Address</th>
+          <th>Location</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>DVC-001</td>
+          <td>Aug 1, 2025 - 09:12</td>
+          <td>192.168.0.2</td>
+          <td>Nairobi, Kenya</td>
+          <td>Authorized</td>
+        </tr>
+        <tr>
+          <td>DVC-002</td>
+          <td>Aug 1, 2025 - 14:47</td>
+          <td>102.90.34.78</td>
+          <td>Unknown</td>
+          <td>Unauthorized</td>
+        </tr>
+        <tr>
+          <td>DVC-003</td>
+          <td>Aug 1, 2025 - 18:22</td>
+          <td>172.16.254.3</td>
+          <td>Kisumu, Kenya</td>
+          <td>Authorized</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-           <a href="mailto:wangarikimanih@gmail.com" >
-            <i class="fa-solid fa-envelope"></i>
-             <span>Email</span>
-           </a>
-        
-        </div>
-
-</nav>
-
-    <main>
-<!-- SECTION 1: Hero -->
-<section class="hero-section">
-    <div class="text">
-        <h1>Hi, I'm Hadassa</h1>
-<h2>Aspiring Software Developer & Digital Forensics Enthusiast</h2>
-<p>
-  A beginning tech learner with a passion for web development, cybersecurity, and building meaningful digital experiences. I’m driven by curiosity, creativity, and a deep desire to bridge the worlds of technology and justice.
-</p>
-<p>
-  My goal is to become a full-stack software developer and a digital forensic scientist — someone who not only writes code but uses it to uncover truth and solve real-world problems.
-</p>
-<a href="#contact" class="cta-button">Let's Connect</a>
-</div>
-    <div class="headshot">
-  <img src="portfolio-new.jpg" alt="Portfolio Image">
-</div>
-
-</section>"
-
-<!-- SECTION 2: About Me -->
-<section id="about">
-    <h1>About Me</h1>
-  <p>
-    I'm a passionate and curious tech learner exploring the worlds of web development, digital forensics, and cybersecurity.
-    With a strong sense of creativity and a deep desire to solve real-world problems, I find joy in understanding how
-    technology works and how it can be used to drive positive change. My goal is to become a <strong>full-stack software developer</strong>
-    and <strong>digital forensic expert</strong> — someone who not only builds meaningful digital tools and experiences but also
-    uses technology to uncover truth, protect data, and contribute to justice.
-  </p>
-</section>
-
-
-
-
-<!-- SECTION 3: Programming Languages -->
-<section id="languages">
-    <h1>Programming Languages</h1>
-    <p>I began learning HTML, CSS, JavaScript, and Python at the start of July 2025. I’m currently learning through the Power Learn Project classes and YouTube tutorials. My goal is to become a full-stack software developer, so I’m focusing on both front-end and back-end development. While I’ve started with front-end technologies, I’m also building a strong foundation in Python for back-end. By the end of August, I aim to be confident in HTML, CSS, and JavaScript. So far, I’ve built two projects that showcase my progress and passion for software development.
-  </p>
-  
- <div class="logo-container">
-    <img src="images/html.svg" alt="HTML Logo" class="lang-logo">
-    <p>HTML</p>
-    <img src="images/css.svg" alt="CSS Logo" class="lang-logo">
-    <P>CSS</P>
-    <img src="images/javascript.svg" alt="JavaScript Logo" class="lang-logo">
-    <P>JavaScript</P>
-    <img src="images/python.svg" alt="Python Logo" class="lang-logo">
-    <p>Python</p>
-  </div>
-</section>
-
-
-
-<!-- SECTION 4: Education -->
-<section id="education">
-  <h1>Education</h1>
-  <p>
-    I'm currently pursuing a <strong>Bachelor of Forensic Science</strong> at <strong>Kenyatta University</strong> and entering my third year in September 2025. In addition to my formal education, I'm also actively expanding my tech skills through the <strong>Power Learn Project (PLP)</strong> as part of the July 2025 cohort. Here, I'm studying <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>Python</strong>, while supplementing my learning with YouTube tutorials. Although I don't have any tech certifications yet, I am working toward them as I progress.
-    <br><br>
-    My long-term goal is to become both a <strong>Full-Stack Software Developer</strong> and a <strong>Digital Forensic Scientist</strong>, combining my academic background in forensic science with my passion for technology. I also plan to explore <strong>Cybersecurity</strong> in-depth after mastering the core web development stack.
-  </p>
-
-  <div class="education-list">
-    <h2>📚 Formal Education</h2>
+  <section class="evidence-summary">
+    <h2>3. Digital Evidence Summary</h2>
     <ul>
-      <li><strong>Kenyatta University</strong><br>
-        <em>Bachelor of Forensic Science</em><br>
-        2022 – Present (Entering 3rd year in September 2025)
-      </li>
+      <li>Screenshot showing suspicious login from unknown IP.</li>
+      <li>System logs indicating attempted breach.</li>
+      <li>Exported chat logs between potential suspects.</li>
+      <li>Recovered deleted files using forensic tools.</li>
     </ul>
+  </section>
 
-    <h2>💻 Tech Education</h2>
+  <section class="incident-log">
+    <h2>4. Incident Log</h2>
+    <p><strong>Timeline of Events:</strong></p>
     <ul>
-      <li><strong>Power Learn Project – July 2025 Cohort</strong><br>
-        Learning HTML, CSS, JavaScript, and Python<br>
-        Supplemented by YouTube tutorials
-      </li>
+      <li><strong>Aug 1, 09:00:</strong> User logged into dashboard from Nairobi.</li>
+      <li><strong>Aug 1, 14:47:</strong> Alert triggered by suspicious IP access.</li>
+      <li><strong>Aug 1, 15:00:</strong> Investigation initiated.</li>
+      <li><strong>Aug 1, 18:30:</strong> Evidence collected and stored.</li>
+      <li><strong>Aug 2, 10:00:</strong> Draft report compiled.</li>
     </ul>
+  </section>
 
-    <h2>📈 Future Goals</h2>
-    <ul>
-      <ol type="I">
-      <li>Gain tech certifications</li>
-      <li>Specialize in Full-Stack Development and Cybersecurity</li>
-      <li>Become a Digital Forensic Scientist</li>
-      </ol>
-    </ul>
-  </div>
-</section>
+  <section class="investigator-notes">
+    <h2>5. Investigator Notes</h2>
+    <p>The attacker attempted to mimic known traffic behavior but failed to replicate device fingerprinting. Their login attempt revealed a breach in session token handling, which was patched immediately. Further investigation into account logs suggests a possible phishing vector.</p>
+    <p>Additional security layers including 2FA and IP restriction will be recommended in the final report.</p>
+  </section>
 
-
-<!-- SECTION 5: Interests -->
-<section id="interests">
-  <h1>Interests</h1>
-   <p>
-      Outside the tech space, I have a deep love for crime TV shows, which naturally aligns with my pursuit of a Bachelor’s degree in Forensic Science. This passion strongly influences my long-term goal of becoming a digital forensic scientist. I also enjoy dancing — especially salsa, kizomba, and bachata — as a way to stay active and expressive. Journaling is another important part of my life, helping me reflect on both my personal and tech learning journey. Whether I’m solving puzzles or exploring new concepts online, I find joy in challenges that sharpen my thinking. These interests not only recharge me but also fuel my drive to grow as a well-rounded full-stack developer and digital investigator.
-    </p>
-  
-</section>
-
-<!-- SECTION 6: Projects -->
-<section id="projects">
-  <h1> Projects</h1>
-
-  <div class="project">
-    <h2>🎬 Movie Tracker</h2>
-    <p>
-      I love watching movies and bingeing shows — it’s honestly my favorite thing to do when I’m not learning or studying. So I made this Movie Tracker as a fun way to list the shows and movies I’ve watched recently. I kept it simple but made sure it felt like <em>me</em> — colorful, clean, and easy to scroll through.
-    </p>
-    <p><strong>Built with:</strong> HTML & CSS</p>
-    <a href="#" class="project-link">🔗 GitHub</a>
-    <a href="#" class="project-link">🌐 Live Preview</a>
-  </div>
-
-  <div class="project">
-    <h2>🕵🏽‍♀️ Digital Crime Scene Report</h2>
-    <p>
-      This project was inspired by two things: my dream of becoming a digital forensic scientist, and the fact that I’m actually studying forensic science at university. I wanted to build something different — not just another portfolio piece, but something that connected to who I am. The layout looks like a real investigation dashboard, with case overviews and evidence logs. Simple? Yes. But personal? Absolutely.
-    </p>
-    <p><strong>Built with:</strong> HTML & CSS</p>
-    <a href="#" class="project-link">🔗 GitHub</a>
-    <a href="#" class="project-link">🌐 Live Preview</a>
-  </div>
-
-  <div class="project">
-    <h2>🌐 My Portfolio Website</h2>
-    <p>
-      This website is where everything comes together — my interests, my background, and my style. I went with a dark background, added neon colors, and used a touch of accent pink (because why not?). It’s clean, modern, and fully coded by me using just HTML and CSS.
-    </p>
-    <p><strong>Built with:</strong> HTML & CSS</p>
-    <a href="#" class="project-link">🔗 GitHub</a>
-    <a href="#" class="project-link">🌐 Live Site</a>
-  </div>
-</section>
-
-</section>
-
-
-<!-- SECTION 7: Contact -->
-<section id="contact">
-  <h2>Contact Me</h2>
-
-  <form class="contact-form">
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-    <label for="email">Your Email</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-    <label for="message">Your Message</label>
-    <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
-
-    <button type="submit">Send Message</button>
-  </form>
-
-  <div class="contact-links">
-    <p>Email: <a href="mailto:yourringemail@example.com">wangarikimanih@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile" target="www.linkedin.com/in/wangari-kimani-197860378">Visit My LinkedIn</a></p>
-  </div>
-</section>
-
-
-</section>
-
-    </main>
-    
-
-    
+  <footer>
+    <p>&copy; 2025 Hadassah | Power Learn Project Hackathon</p>
+  </footer>
 </body>
+
 </html>
